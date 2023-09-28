@@ -41,7 +41,7 @@
             </VBox>
          </top>
          <center>
-            <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
               <columns>
                 <TableColumn prefWidth="48.0" text="S. No." />
                 <TableColumn prefWidth="186.0" text="File Name" />
